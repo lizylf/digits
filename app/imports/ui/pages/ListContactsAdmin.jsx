@@ -33,7 +33,7 @@ const ListContactsAdmin = () => {
       <Row className="justify-content-center">
         <Col>
           <Col className="text-center">
-            <h2>List Contacts</h2>
+            <h2>List Contact</h2>
           </Col>
           <Row xs={1} md={2} lg={3} className="g-4">
             {contacts.map((contact) => (<Col key={contact._id}><ContactAdmin contact={contact} /></Col>))}
